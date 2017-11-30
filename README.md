@@ -16,6 +16,10 @@ Then run this command from the prompt
 >php make_qr_code_mosaic.php your_qr_code_file.png your_image_file.jpg output_file_name.png
 ```
 
+obviously replace 'your_qr_code_file.png' with the name of your qr code. 
+replace 'your_image_file.jpg' with your image file... 
+and change 'output_file_name.png' to the name of the file that you want to be newly created...
+
 The php script will call a sequence of imagemagick convert and composite commands that will create a QR code mosaic. 
 
 Enjoy.
